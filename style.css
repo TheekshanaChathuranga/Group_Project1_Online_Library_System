@@ -1,0 +1,213 @@
+.a1 {
+    text-align: center;
+    padding:2%;
+}
+
+.his {
+    padding: 34px;
+}
+
+    .his img {
+        width: 200px;
+        height: 300px;
+        margin: 22px;
+        border: none;
+        border-radius: 10px;
+        transition: 0.5s;
+        box-shadow: -1px -1px 22px 4px #00000085;
+    }
+
+        .his img:hover {
+            -ms-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+            box-shadow: -1px -1px 22px 7px #00000085
+        }
+    .his .container {
+        position: relative;
+        display: inline-block;
+    }
+.btn {
+    width: 190px;
+    background-color: transparent;
+    border: solid 1px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration:none;
+}
+
+.btn:hover{
+    border: 1px solid #fff;
+    background: white;
+    transition: 0.1s;
+    color: black;
+    opacity:0.6;
+}
+
+br{
+    height:100%;
+    width:100%;
+    color:white;
+}
+
+.bor{
+    border-bottom:1px solid white;
+}
+
+.showmorebtn{
+    width:100%;
+}
+
+.btn_table_position{
+    padding-bottom:18px;
+    width:100%;
+    align-content:right;
+
+}
+
+#historical {
+
+}
+
+#horror{
+
+}
+
+#fantasy{
+
+}
+
+#romance{
+
+}
+
+#crime{
+
+}
+#drama{
+
+}
+
+#short_story{
+
+}
+
+#thriller{
+
+}
+
+#mythology{
+
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 27px;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+    width:100%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #cacaca}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #78158194;
+    border-radius: 10px;
+    box-shadow: -1px -1px 22px 4px #00000085;
+}
+
+.gradientbkgselectionbtn {
+    border-bottom:1px solid white;
+}
+
+
+.btn1 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    background-color: transparent;
+    border: solid 1px;
+    color: white;
+    padding: 1px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+.his img:hover + .btn1 {
+    opacity: 0;
+    bottom: -11px;
+    transition: opacity 0s ease-in-out;
+}
+
+    .btn1:hover {
+        border: 1px solid #fff;
+        background: white;
+        transition: 0.5s;
+        color: black;
+        opacity: 0.6;
+        box-shadow: -1px -1px 22px 7px black;
+        
+    }
+
+
+
+
+.read1 {
+    width: 100%;
+    height: 100vh;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.read2 {
+    color:white;
+}
+
+.read1 .logo {
+    width: 531px;
+    height: 93px px;
+}
+.read1 .loading {
+    width: 271px;
+    height: 199px;
+}

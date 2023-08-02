@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="adminLogin.css">
+    <link rel="stylesheet" href="stylesheet1.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="csssignup.css" />
+    <title>Admin login</title>
+
+</head>
+
+<body>
+    <div class="naviPanel">
+
+        <div class="navigLf">
+            <img src="icon/logogif.gif" style="height:110px" />
+
+        </div>
+
+        <div class="navigRt">
+            <nav class="navigateset">
+                <a href="index.html" class="navipadding"><img src="icon/logout.png" class="iconsize" /><p>Log out</p></a>
+            </nav>
+
+        </div>
+
+
+    </div>
+
+    <h1>Add Book</h1>
+
+    <form id="book-form" action="">
+        <p>Fill the details of book</p>
+
+        <label>Book Code</label>
+        <input id="book_code" placeholder="Enter Book Code">
+
+        <!-- book name -->
+        <label>Book Name</label>
+        <input id="book_name" type="text" placeholder="Enter book name">
+
+        <!-- authors name -->
+        <label>Author Name(1)</label>
+        <input id="author1" type="text" placeholder="Enter Author name">
+
+
+        <label>Author Name(2)</label>
+        <input id="author2" type="text" placeholder="Enter Author name">
+
+        <label>Subject</label>
+        <input id="Subject" type="text" placeholder="Enter Subject">
+
+        <label>Tags</label>
+        <textarea placeholder="Add some tags which will help you during searching.tags may be name of the book, author, subject etc."></textarea>
+
+        <div class="upload-btn-wrapper">
+            <button class="btn">Upload a Ebook</button>
+            <input type="file" name="myfile" />
+        </div>
+        <div>
+            <button id="submit" onclick=add_this()>Finish</button>
+        </div>
+        <script src="adminLogin.js"></script>
+</body>
+
+</html>

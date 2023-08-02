@@ -1,0 +1,161 @@
+.leftrightpadding {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.dash1 {
+    background-color: rgb(22 22 20 / 24%);
+    height: 100px;
+    display: flex;
+    padding: 9px 19px 10px 55px;
+    align-items: center;
+}
+
+.dash2 {
+    background-color: rgba(141, 139, 139, 0.884);
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 41px;
+    margin-left: 5px;
+    transition: 1s;
+}
+
+.dash2:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: -1px -1px 20px 3px black;
+}
+
+.dash3{
+    width: 70px;
+    height: 70px;
+}
+
+.dash4 {
+    text-align: right;
+    margin-left: 10px;
+    font-size: larger;
+    color: white;
+}
+
+
+    .dash4::after {
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #ffffff;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+        
+    }
+
+
+.dash4:hover::after{
+    width: 100%;
+}
+
+.dash5 {
+    background-color: transparent;
+    height: 380px;
+    display: flex;
+    padding: 30px;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+    .dash5 .overlay {
+        background: #5961f9ad;
+        width: 100%;
+        height: 100%;
+    }
+
+.dash6 {
+    background-image: url(icon/mybooks.jfif);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 80%;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    box-shadow: -1px -1px 22px 4px black;
+}
+
+.dash6:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: -1px -1px 22px 7px black;
+}
+
+.dash7 {
+    background-image: url(icon/myprocess.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 80%;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    box-shadow: -1px -1px 22px 4px black;
+}
+
+.dash7:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: -1px -1px 22px 7px black;
+}
+
+.dash8 {
+    background-image: url(icon/readinghistory.webp);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 80%;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    box-shadow: -1px -1px 22px 4px black;
+}
+
+.dash8:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: -1px -1px 22px 7px black;
+}
+
+.bar1{
+    max-width: 110%;
+    max-height: 100%;
+}
+
+.dash5 .overlay h2 {
+    color: white;
+    padding: 10% 10% 10% 10%;
+    font-size: 3vmax;
+    text-align-last: center;
+}
